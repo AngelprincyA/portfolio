@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="./Images/logo Img.png" class="logo"> -->
+                <h1 class="headerLogo" style="font-family:serif ;">PORTFOLIO</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">My work</a></li>
+                    <li><a href="#">Services</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>FRONT END DEVELOPER</p>
+                <h1>Hi I'm <span>Angel Princy</span> <br>from Los Angeles</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container"></div>
+        <div class="row">
+            <div class="aboutcol-1">
+                <img src="./Images/Professional pic.jpeg" class="proimg">
+            </div>
+            <div class="aboutcol-2">
+                <h1 class="subtitle">About me</h1>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio eligendi alias
+                    porro magni sint
+                    voluptatem, corporis facere tempore, aliquid maiores veritatis ducimus voluptates expedita nostrum
+                    excepturi quos explicabo itaque accusamus ab reprehenderit architecto. Corporis doloribus explicabo
+                    nam
+                    tempore magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla iure
+                    obcaecati.
+                    Architecto voluptate voluptatem beatae perspiciatis, labore voluptas consectetur quo commodi quam
+                    tempore molestias? Culpa dignissimos nostrum voluptate quisquam commodi. Odit fugit nesciunt
+                    veritatis
+                    maiores in </p>
+            </div>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('projects')">Technical-Projects</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <!-- skills -->
+            <div class="table-content active-tab" id="Skills">
+                <ul>
+                    <li><span>SQL</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint aut
+                        consectetur totam eos nesciunt error ab voluptatibus mollitia fuga pariatur.</li>
+                    <li><span>JAVA</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptas
+                        accusantium minus eos quod corporis eveniet suscipit repellendus, earum recusandae!</li>
+                    <li><span>WEB-TECH</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur
+                        veritatis ipsum. Voluptas minus fuga dicta repellat, aut animi cupiditate?</li>
+                </ul>
+            </div>
+            <!-- education -->
+            <div class="table-content educat" id="Education">
+                <ul>
+                    <li><span>HSC</span><br>Adaikala Annai Higher Secondary School,Viriyur</li>
+                    <li><span>SSLC</span><br>Adaikala Annai Higher Secondary School,Viriyur</li>
+                    <li><span>DEGREE</span><br>DMI College of Engineering,Chennai</li>
+                </ul>
+            </div>
+            <!-- Technical-Projects -->
+            <div class="table-content Tech" id="projects">
+                <ul>
+                    <li>ToDo_list using HTML,CSS,JS</li>
+                    <li>Swiggy-App using JAVA</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iusto ipsum dicta at porro, autem
+                        minus assumenda aut consectetur, voluptatibus quia nesciunt laboriosam quis dolorem possimus,
+                        illo molestias ipsam voluptates.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iusto ipsum dicta at porro, autem
+                        minus assumenda aut consectetur, voluptatibus quia nesciunt laboriosam quis dolorem possimus,
+                        illo molestias ipsam voluptates.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ------------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div id="work-list">
+                <div class="work">
+                    <img src="./Images/mini-calender.png" alt="">
+                    <div class="description">
+                        <h3 style="color:deeppink;">ToDo List</h3>
+                        <p>Todo Lists are used to maintain our day-to-day <br> tasks or list of
+                            everything that we have to do...</p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./Images/textToVoice.png" alt="">
+                    <div class="description">
+                        <h3 style="color:deeppink;">Text to Voice Converter</h3>
+                        <p>An AI text-to-speech voice changer converts <br> digital text into audio. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------contact section----------------------- -->
+    <div id="contact">
+        <div class="cont">
+            <h1 style="color: deeppink;">CONTACT ME...</h1>
+            <div class=" info ph">
+                <i class="fa-solid fa-phone icon"></i>
+                <h3>6383005671</h3>
+            </div>
+            <div class=" info mail">
+                <i class="fa-solid fa-envelope icon"></i>
+                <h3>angelprinci25@gmail.com</h3>
+            </div>
+            <div class=" info address">
+                <i class="fa-solid fa-house icon"></i>
+                <h3>54,Prasanna vinayagar Street,Gopalapuram,Chennai-600014.</h3>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontent = document.getElementsByClassName("table-content");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcon of tabcontent) {
+                tabcon.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
